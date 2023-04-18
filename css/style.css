@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'natalia';
+  src: url(../assets/natalia.ttf)
+}
+
+
+
+body{
+  font-family: natalia;
+  margin: 0;
+  padding: 0;
+}
+
+/*DESCRIPCION Y FOTO*/
+h1{
+  text-align: center;
+  
+}
+
+#introduccion{
+  background-color: aquamarine;
+  height:auto;
+}
+
+.descripcion::first-letter{
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.natalia{
+  background: forestgreen;
+  height:auto;
+}
+
+.fondo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+/* TERMINA DESCRIPCION Y FOTO*/
+
+/* COMIENZAN PROYECTOS*/
+#skills{
+  text-align: center;
+  font-size:40px;
+}
+.skills{
+  background: darkgoldenrod;
+}
+
+.proyecto1{
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto2{
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto3{
+
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto4{
+
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto5{
+
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto6{
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto7{
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto8{
+
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyecto9{
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+/* TERMINAN PROYECTOS*/
+
+#proyectos{
+  background: darkgoldenrod;
+}
+
+.proyectoo1{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(213, 129, 171);
+  height: auto;
+}
+
+.proyectoo2{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+  height: auto;
+}
+
+.proyectoo3{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(141, 64, 204);
+  height: auto;
+}
+
+.proyectoo4{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(199, 37, 22);
+  height: auto;
+}
+
+.proyectoo5{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(199, 146, 22);
+  height: auto;
+}
+
+.proyectoo6{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 199, 22);
+  height: 20rem;
+  height: auto;
+}
+
+.proyectoo7{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(173, 237, 63);
+  height: auto;
+}
+
+.proyectoo8{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(249, 77, 255);
+  height: auto;
+}
+
+.proyectoo9{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(118, 172, 176);
+  height: auto;
+}
+
+btn-primary{
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.changua{
+  height: 3rem;
+}
